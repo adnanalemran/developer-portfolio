@@ -115,8 +115,23 @@ nav a {
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
-}
-
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
 .banner-description {
     margin-bottom: 30px;
 }
