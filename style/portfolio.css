@@ -256,12 +256,28 @@ body {
       margin-bottom: 50px;
     }
   
-    .footer {
-      padding: 50px;
-    }
-  
-    .footer-column {
-      width: 100%;
-    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+      }
+    
+      .footer-column {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+    
+      .social-links {
+        margin-bottom: 30px;
+      }
+    
+      .content input[type="text"],
+      .content input[type="email"],
+      textarea {
+        width: 100%;
+        margin-bottom: 20px;
+      }
   }
   
