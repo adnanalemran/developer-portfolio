@@ -114,6 +114,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
@@ -143,4 +147,13 @@ main {
 
 .skill-description {
     color: #757575;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+}
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
